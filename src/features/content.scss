@@ -49,6 +49,10 @@
     display: flex;
     align-items: center;
     margin-bottom: 32px;
+
+    @media (max-width: $mobile) {
+      margin-bottom: 10px;
+    }
   }
 
   &__navbar-title {
@@ -62,6 +66,11 @@
 
     &_bottom {
       padding-top: 24px;
+
+      @media (max-width: $mobile) {
+        margin-bottom: 10px;
+        padding: 0;
+      }
     }
 
     @media (max-width: $padmini) {
