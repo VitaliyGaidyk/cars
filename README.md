@@ -1,2 +1,2 @@
 # cars
-Vite, html, scss, bootstrap
+Vite, html, js, scss, bootstrap
