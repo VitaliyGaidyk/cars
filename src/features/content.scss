@@ -11,7 +11,15 @@
     }
 
     @media (max-width: $mobile) {
-      display: none;
+      position: fixed;
+      left: -100%;
+    }
+
+    &.active {
+      left: 0;
+      top: 220px;
+      z-index: 5;
+      overflow: auto
     }
   }
 
