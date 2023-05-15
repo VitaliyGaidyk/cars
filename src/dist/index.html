@@ -1,0 +1,675 @@
+<!doctype html>
+<html lang="en">
+<head>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <title>Bootstrap w/ Vite</title>
+   <link href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css" rel="stylesheet">
+  <script type="module" crossorigin src="/assets/index-cb36cf08.js"></script>
+  <link rel="stylesheet" href="/assets/index-24be21a2.css">
+</head>
+<body>
+<header class="header">
+   <div class="container-fluid">
+      <div class="row">
+         <div class="col-12 col-xl-7 col-lg-7 col-md-7 col-sm-7">
+            <div class="header__mobile-menu">
+               <img class="header__menu-icon" src="/assets/burger-icon-c4cff872.svg" alt="">
+               <img class="header__mobile-icon" src="/assets/profile-icon-7cde8060.svg" alt="">
+            </div>
+            <div class="header__inner">
+               <h2 class="header__title">
+                  Morent
+               </h2>
+               <form class="header__search form-inline">
+                  <input class="header__search-item form-control" type="text"
+                         placeholder="Search something here">
+                  <img class="header__search-icon" src="/assets/search-icon-6d2f690d.svg" alt="">
+                  <img class="header__search-icon header__search-icon_config" src="/assets/config-icon-c593a030.svg"
+                       alt="">
+                  <img class="header__mobile-config" src="/assets/config-icon-c593a030.svg" alt="">
+               </form>
+            </div>
+         </div>
+         <div class="col-12 col-xl-2 col-lg-3 col-md-4 col-sm-5 offset-sm-0 offset-md-1 offset-lg-2 offset-xl-3">
+            <div class="header__icons">
+               <img class="header__icons-item" src="/assets/like-icon-0fcad62c.svg" alt="">
+               <img class="header__icons-item" src="/assets/notification-icon-354e8fbf.svg" alt="">
+               <img class="header__icons-item" src="/assets/settings-icon-b2101979.svg" alt="">
+               <img class="header__icons-item" src="/assets/profile-icon-7cde8060.svg" alt="">
+            </div>
+         </div>
+      </div>
+   </div>
+</header>
+
+<section class="content">
+   <div class="container-fluid">
+      <div class="row">
+         <div class="col-12 col-xl-3 col-lg-4 col-md-4 col-sm-4">
+            <div class="content__navbar">
+               <h3 class="content__navbar-title">
+                  type
+               </h3>
+               <div class="content__navbar-item form-check">
+                  <input class="content__navbar-input form-check-input" type="checkbox" value=""
+                         id="flexCheckDefault">
+                  <label class="content__navbar-name form-check-label" for="flexCheckDefault">
+                     Sport
+                  </label>
+                  <span class="content__navbar-count">(10)</span>
+               </div>
+               <div class="content__navbar-item form-check">
+                  <input class="content__navbar-input form-check-input" type="checkbox" value=""
+                         id="flexCheckChecked">
+                  <label class="content__navbar-name form-check-label" for="flexCheckChecked">
+                     SUV
+                  </label>
+                  <span class="content__navbar-count">(12)</span>
+               </div>
+               <div class="content__navbar-item form-check">
+                  <input class="content__navbar-input form-check-input" type="checkbox" value=""
+                         id="flexCheckMpv">
+                  <label class="content__navbar-name form-check-label" for="flexCheckMpv">
+                     MPV
+                  </label>
+                  <span class="content__navbar-count">(16)</span>
+               </div>
+               <div class="content__navbar-item form-check">
+                  <input class="content__navbar-input form-check-input" type="checkbox" value=""
+                         id="flexCheckSedan">
+                  <label class="content__navbar-name form-check-label" for="flexCheckSedan">
+                     Sedan
+                  </label>
+                  <span class="content__navbar-count">(20)</span>
+               </div>
+               <div class="content__navbar-item form-check">
+                  <input class="content__navbar-input form-check-input" type="checkbox" value=""
+                         id="flexCheckCoupe">
+                  <label class="content__navbar-name form-check-label" for="flexCheckCoupe">
+                     Coupe
+                  </label>
+                  <span class="content__navbar-count">(14)</span>
+               </div>
+               <div class="content__navbar-item form-check">
+                  <input class="content__navbar-input form-check-input" type="checkbox" value=""
+                         id="flexCheckHatchback">
+                  <label class="content__navbar-name form-check-label" for="flexCheckHatchback">
+                     Hatchback
+                  </label>
+                  <span class="content__navbar-count">(14)</span>
+               </div>
+               <h3 class="content__navbar-title content__navbar-title_bottom">
+                  capacity
+               </h3>
+               <div class="content__navbar-item form-check">
+                  <input class="content__navbar-input form-check-input" type="checkbox" value=""
+                         id="flexCheckPerson">
+                  <label class="content__navbar-name form-check-label" for="flexCheckPerson">
+                     2 Person
+                  </label>
+                  <span class="content__navbar-count">(10)</span>
+               </div>
+               <div class="content__navbar-item form-check">
+                  <input class="content__navbar-input form-check-input" type="checkbox" value=""
+                         id="flexCheckPeople">
+                  <label class="content__navbar-name form-check-label" for="flexCheckPeople">
+                     4 Person
+                  </label>
+                  <span class="content__navbar-count">(14)</span>
+               </div>
+               <div class="content__navbar-item form-check">
+                  <input class="content__navbar-input form-check-input" type="checkbox" value=""
+                         id="flexCheckPeoples">
+                  <label class="content__navbar-name form-check-label" for="flexCheckPeoples">
+                     6 Person
+                  </label>
+                  <span class="content__navbar-count">(12)</span>
+               </div>
+               <div class="content__navbar-item form-check">
+                  <input class="content__navbar-input form-check-input" type="checkbox" value=""
+                         id="flexCheck">
+                  <label class="content__navbar-name form-check-label" for="flexCheck">
+                     8 orMore
+                  </label>
+                  <span class="content__navbar-count">(16)</span>
+               </div>
+
+               <h3 class="content__navbar-title">
+                  price
+               </h3>
+               <div class="content__range-container">
+                  <input class="content__range" type="range" min="0" max="100" value="0" id="range">
+                  <label for="range" class="content__range-value">Max. 100$</label>
+               </div>
+            </div>
+         </div>
+         <div class="col-12 col-xl-9 col-lg-8 col-md-8 col-sm-8">
+            <div class="content__main-content">
+               <section class="content__cards">
+                  <div class="content__cards-images">
+                     <div class="content__cards-wrapper">
+                        <img class="content__cards-image" src="/assets/image-auto-1-efc20091.png" alt="">
+                     </div>
+                     <div class="content__cards-inner">
+                        <img class="content__cards-item" src="/assets/image-auto-4-a1f2c049.png" alt="">
+                        <img class="content__cards-item" src="/assets/image-auto-2-f428de8c.png" alt="">
+                        <img class="content__cards-item" src="/assets/image-auto-3-13b0c33e.png" alt="">
+                     </div>
+                  </div>
+                  <div class="content__cards-description">
+                     <div class="content__cards-header">
+                        <h2 class="content__cards-title">
+                           Nissan GT-R
+                        </h2>
+                        <img src="/assets/heart-icon-d7febd23.svg" alt="">
+                     </div>
+                     <div class="content__cards-rating">
+                        <img src="/assets/star-icon-336882d3.svg" alt="">
+                        <img src="/assets/star-icon-336882d3.svg" alt="">
+                        <img src="/assets/star-icon-336882d3.svg" alt="">
+                        <img src="/assets/star-icon-336882d3.svg" alt="">
+                        <img src="/assets/border-star-icon-7a45220c.svg" alt="">
+                        <span class="content__cards-reviewer">
+                                440+ Reviewer
+                            </span>
+                     </div>
+                     <div class="content__body">
+                        <p class="content__body-text">
+                           NISMO has become the embodiment of Nissan's outstanding performance, inspired by the
+                           most unforgiving proving ground, the "racetrack".
+                        </p>
+                        <div class="content__body-filters">
+                           <div class="content__body-group">
+                              <p class="content__body-item">
+                                 Type Car
+                              </p>
+                              <p class="content__body-item">
+                                 Steering
+                              </p>
+                           </div>
+                           <div class="content__body-group">
+                              <p class="content__body-item content__body-item_selected">
+                                 Sport
+                              </p>
+                              <p class="content__body-item content__body-item_selected">
+                                 Manual
+                              </p>
+                           </div>
+                           <div class="content__body-group">
+                              <p class="content__body-item">
+                                 Capacity
+                              </p>
+                              <p class="content__body-item">
+                                 Gasoline
+                              </p>
+                           </div>
+                           <div class="content__body-group">
+                              <p class="content__body-item content__body-item_selected">
+                                 2Person
+                              </p>
+                              <p class="content__body-item content__body-item_selected">
+                                 70L
+                              </p>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="content__footer">
+                        <div class="content__price-wrapper">
+                                <span class="content__price">
+                                $80.00/
+                                <span class="content__price-days">days</span>
+                            </span>
+                           <span class="content__old-price">
+                                $100$
+                            </span>
+                        </div>
+                        <button class="content__button button">
+                           Rent Now
+                        </button>
+                     </div>
+                  </div>
+               </section>
+               <section class="content__reviews">
+                  <div class="content__reviews-header">
+                     <p class="content__reviews-inner">
+                        Reviews
+                     </p>
+                     <span class="content__reviews-count">
+                            13
+                        </span>
+                  </div>
+
+                  <div class="content__reviews-body">
+                     <div class="content__reviews-item">
+                        <img class="content__reviews-image" src="/assets/profile-image-1-7d9c7f45.png" alt="">
+                        <div class="content__reviews-wrapper">
+                           <div class="content__group-inner">
+                              <div class="content__reviews-group">
+                                 <p class="content__reviews-name">
+                                    Alex Stanton
+                                 </p>
+                                 <p class="content__reviews-position">
+                                    CEO at Bukalapak
+                                 </p>
+                              </div>
+                              <div class="content__reviews-group content__reviews-group_right">
+                              <span class="content__reviews-date">
+                                  21 July 2022
+                              </span>
+                                 <span>
+                                    <img class="content__reviews-star" src="/assets/star-icon-336882d3.svg" alt="">
+                                    <img class="content__reviews-star" src="/assets/star-icon-336882d3.svg" alt="">
+                                    <img class="content__reviews-star" src="/assets/star-icon-336882d3.svg" alt="">
+                                    <img class="content__reviews-star" src="/assets/star-icon-336882d3.svg" alt="">
+                                    <img class="content__reviews-star" src="/assets/border-star-icon-7a45220c.svg" alt="">
+                              </span>
+                              </div>
+                           </div>
+                           <p class="content__reviews-text">
+                              We are very happy with the service from the MORENT App. Morent has a low price and
+                              also
+                              a large variety of cars with good and comfortable facilities. In addition, the
+                              service
+                              provided by the officers is also very friendly and very polite.
+                           </p>
+                        </div>
+                     </div>
+                  </div>
+
+                  <div class="content__reviews-body">
+                     <div class="content__reviews-item">
+                        <img class="content__reviews-image" src="/assets/profile-image-2-6a0f5998.png" alt="">
+                        <div class="content__reviews-wrapper">
+                           <div class="content__group-inner">
+                              <div class="content__reviews-group">
+                                 <p class="content__reviews-name">
+                                    Alex Stanton
+                                 </p>
+                                 <p class="content__reviews-position">
+                                    CEO at Amazon
+                                 </p>
+                              </div>
+                              <div class="content__reviews-group content__reviews-group_right">
+                              <span class="content__reviews-date">
+                                  20 July 2022
+                              </span>
+                                 <span>
+                                    <img class="content__reviews-star" src="/assets/star-icon-336882d3.svg" alt="">
+                                    <img class="content__reviews-star" src="/assets/star-icon-336882d3.svg" alt="">
+                                    <img class="content__reviews-star" src="/assets/star-icon-336882d3.svg" alt="">
+                                    <img class="content__reviews-star" src="/assets/star-icon-336882d3.svg" alt="">
+                                    <img class="content__reviews-star" src="/assets/border-star-icon-7a45220c.svg" alt="">
+                              </span>
+                              </div>
+                           </div>
+                           <p class="content__reviews-text">
+                              We are very happy with the service from the MORENT App. Morent has a low price and
+                              also
+                              a large variety of cars with good and comfortable facilities. In addition, the
+                              service
+                              provided by the officers is also very friendly and very polite.
+                           </p>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="content__reviews-footer">
+                     <a class="content__reviews-link">
+                        Show All
+                     </a>
+                     <img src="/assets/arrow-down-5c2fdbcb.svg" alt="">
+                  </div>
+               </section>
+               <section class="content__slider">
+                  <div class="content__slider-header">
+                     <p class="content__slider-link">
+                        Recent Car
+                     </p>
+                     <a class="content__slider-link content__slider-link_right">
+                        View All
+                     </a>
+                  </div>
+
+                  <section class="splide">
+                     <div class="splide__track">
+                        <ul class="splide__list">
+                           <li class="splide__slide">
+                              <div class="content__card">
+                                 <div class="content__card-header">
+                                    <div class="content__card-inner">
+                                       <h4 class="content__card-title">
+                                          Koenigsegg
+                                       </h4>
+                                       <span class="content__card-subtitle">Sport</span>
+                                    </div>
+                                    <img src="/assets/heart-icon-d7febd23.svg" alt="">
+                                 </div>
+                                 <div class="content__card-body">
+                                    <img class="content__card-image" src="/assets/car-item-1-784fc3b1.png" alt="">
+                                    <div class="content__card-icons">
+                                       <img class="content__card-icon" src="/assets/card-icon-1-7ae378f8.svg" alt="">
+                                       <span>90L</span>
+                                       <img class="content__card-icon" src="/assets/card-icon-2-6e7b68ca.svg" alt="">
+                                       <span>Manual</span>
+                                       <img class="content__card-icon" src="/assets/card-icon-3-7b0ee466.svg" alt="">
+                                       <span>2 People</span>
+                                    </div>
+
+                                 </div>
+                                 <div class="content__card-footer">
+                                    <p class="content__card-price">
+                                       $99.00/
+                                       <span class="content__card-subprice">day</span>
+                                    </p>
+
+                                    <button class="button__card-button button">
+                                       Rent Now
+                                    </button>
+                                 </div>
+                              </div>
+                           </li>
+
+                           <li class="splide__slide">
+                              <div class="content__card">
+                                 <div class="content__card-header">
+                                    <div class="content__card-inner">
+                                       <h4 class="content__card-title">
+                                          Nissan GT - R
+                                       </h4>
+                                       <span class="content__card-subtitle">
+                                    Sport
+                                    </span>
+                                    </div>
+                                    <img src="/assets/border-heart-icon-681a9bf4.svg" alt="">
+                                 </div>
+                                 <div class="content__card-body">
+                                    <img class="content__card-image" src="/assets/car-item-2-d3b61898.png" alt="">
+                                    <div class="content__card-icons">
+                                       <img class="content__card-icon" src="/assets/card-icon-1-7ae378f8.svg" alt="">
+                                       <span>80L</span>
+                                       <img class="content__card-icon" src="/assets/card-icon-2-6e7b68ca.svg" alt="">
+                                       <span>Manual</span>
+                                       <img class="content__card-icon" src="/assets/card-icon-3-7b0ee466.svg" alt="">
+                                       <span>2 People</span>
+                                    </div>
+                                 </div>
+                                 <div class="content__card-footer">
+                                    <div class="content__card-group">
+                                       <p class="content__card-price">
+                                          $80.00/
+                                          <span class="content__card-subprice">day</span>
+                                       </p>
+                                       <p class="content__card-oldprice">
+                                          $100
+                                       </p>
+                                    </div>
+                                    <button class="button__card-button button">
+                                       Rent Now
+                                    </button>
+                                 </div>
+                              </div>
+
+                           </li>
+                           <li class="splide__slide">
+                              <div class="content__card">
+                                 <div class="content__card-header">
+                                    <div class="content__card-inner">
+                                       <h4 class="content__card-title">
+                                          Rolls-Royce
+                                       </h4>
+                                       <span class="content__card-subtitle">Sport</span>
+                                    </div>
+                                    <img src="/assets/border-heart-icon-681a9bf4.svg" alt="">
+                                 </div>
+                                 <div class="content__card-body">
+                                    <img class="content__card-image" src="/assets/car-item-3-0a33d317.png" alt="">
+                                    <div class="content__card-icons">
+                                       <img class="content__card-icon" src="/assets/card-icon-1-7ae378f8.svg" alt="">
+                                       <span>70L</span>
+                                       <img class="content__card-icon" src="/assets/card-icon-2-6e7b68ca.svg" alt="">
+                                       <span>Manual</span>
+                                       <img class="content__card-icon" src="/assets/card-icon-3-7b0ee466.svg" alt="">
+                                       <span>4 People</span>
+                                    </div>
+
+                                 </div>
+                                 <div class="content__card-footer">
+                                    <p class="content__card-price">
+                                       $96.00/
+                                       <span class="content__card-subprice">day</span>
+                                    </p>
+
+                                    <button class="button__card-button button">
+                                       Rent Now
+                                    </button>
+                                 </div>
+                              </div>
+                           </li>
+                        </ul>
+                     </div>
+                  </section>
+
+                  <div class="content__slider-header content__slider-header_bottom">
+                     <p class="content__slider-link content__slider-link_left">
+                        Recomendation Car
+                     </p>
+                     <a class="content__slider-link content__slider-link_right">
+                        View All
+                     </a>
+                  </div>
+                  <section id="splide2" class="splide">
+                     <div class="splide__track">
+                        <ul class="splide__list">
+                           <li class="splide__slide">
+                              <div class="content__card">
+                                 <div class="content__card-header">
+                                    <div class="content__card-inner">
+                                       <h4 class="content__card-title">
+                                          All New Rush
+                                       </h4>
+                                       <span class="content__card-subtitle">Sport</span>
+                                    </div>
+                                    <img src="/assets/border-heart-icon-681a9bf4.svg" alt="">
+                                 </div>
+                                 <div class="content__card-body">
+                                    <img class="content__card-image" src="/assets/car-item-4-84b099c8.png" alt="">
+                                    <div class="content__card-icons">
+                                       <img class="content__card-icon" src="/assets/card-icon-1-7ae378f8.svg" alt="">
+                                       <span>70L</span>
+                                       <img class="content__card-icon" src="/assets/card-icon-2-6e7b68ca.svg" alt="">
+                                       <span>Manual</span>
+                                       <img class="content__card-icon" src="/assets/card-icon-3-7b0ee466.svg" alt="">
+                                       <span>6 People</span>
+                                    </div>
+
+                                 </div>
+                                 <div class="content__card-footer">
+                                    <div class="content__card-group">
+                                       <p class="content__card-price">
+                                          $72.00/
+                                          <span class="content__card-subprice">day</span>
+                                       </p>
+                                       <p class="content__card-oldprice">
+                                          $80
+                                       </p>
+                                    </div>
+
+                                    <button class="button__card-button button">
+                                       Rent Now
+                                    </button>
+                                 </div>
+                              </div>
+                           </li>
+                           <li class="splide__slide">
+                              <div class="content__card">
+                                 <div class="content__card-header">
+                                    <div class="content__card-inner">
+                                       <h4 class="content__card-title">
+                                          CR-V
+                                       </h4>
+                                       <span class="content__card-subtitle">SUV</span>
+                                    </div>
+                                    <img src="/assets/heart-icon-d7febd23.svg" alt="">
+                                 </div>
+                                 <div class="content__card-body">
+                                    <img class="content__card-image" src="/assets/car-item-5-1a7781f8.png" alt="">
+                                    <div class="content__card-icons">
+                                       <img class="content__card-icon" src="/assets/card-icon-1-7ae378f8.svg" alt="">
+                                       <span>80L</span>
+                                       <img class="content__card-icon" src="/assets/card-icon-2-6e7b68ca.svg" alt="">
+                                       <span>Manual</span>
+                                       <img class="content__card-icon" src="/assets/card-icon-3-7b0ee466.svg" alt="">
+                                       <span>6 People</span>
+                                    </div>
+
+                                 </div>
+                                 <div class="content__card-footer">
+                                    <p class="content__card-price">
+                                       $80.00/
+                                       <span class="content__card-subprice">day</span>
+                                    </p>
+
+                                    <button class="button__card-button button">
+                                       Rent Now
+                                    </button>
+                                 </div>
+                              </div>
+                           </li>
+                           <li class="splide__slide">
+                              <div class="content__card">
+                                 <div class="content__card-header">
+                                    <div class="content__card-inner">
+                                       <h4 class="content__card-title">
+                                          All New Terios
+                                       </h4>
+                                       <span class="content__card-subtitle">SUV</span>
+                                    </div>
+                                    <img src="/assets/border-heart-icon-681a9bf4.svg" alt="">
+                                 </div>
+                                 <div class="content__card-body">
+                                    <img class="content__card-image" src="/assets/car-item-6-1bad976c.png" alt="">
+                                    <div class="content__card-icons">
+                                       <img class="content__card-icon" src="/assets/card-icon-1-7ae378f8.svg" alt="">
+                                       <span>90L</span>
+                                       <img class="content__card-icon" src="/assets/card-icon-2-6e7b68ca.svg" alt="">
+                                       <span>Manual</span>
+                                       <img class="content__card-icon" src="/assets/card-icon-3-7b0ee466.svg" alt="">
+                                       <span>6 People</span>
+                                    </div>
+
+                                 </div>
+                                 <div class="content__card-footer">
+                                    <p class="content__card-price">
+                                       $74.00/
+                                       <span class="content__card-subprice">day</span>
+                                    </p>
+
+                                    <button class="button__card-button button">
+                                       Rent Now
+                                    </button>
+                                 </div>
+                              </div>
+                           </li>
+                        </ul>
+                     </div>
+                  </section>
+               </section>
+            </div>
+         </div>
+      </div>
+   </div>
+</section>
+
+<section class="footer">
+   <div class="container-fluid">
+      <div class="row">
+         <div class="col-12 col-xl-3 col-lg-3 col-md-3 col-sm-3">
+            <div class="footer__description">
+               <h2 class="footer__title">
+                  Morent
+               </h2>
+               <p class="footer__text">
+                  Our vision is to provide convenience and help increase your sales business.
+               </p>
+            </div>
+         </div>
+         <div class="col-12 col-xl-5 col-lg-6 col-md-7 col-sm-8 offset-sm-1 offset-md-2 offset-lg-3 offset-xl-4">
+            <div class="footer__navigation">
+               <div class="footer__navigation-group">
+                  <p class="footer__navigation-title">
+                     About
+                  </p>
+                  <a class="footer__navigation-item" href="/">
+                     How it works
+                  </a>
+                  <a class="footer__navigation-item" href="/">
+                     Featured
+                  </a>
+                  <a class="footer__navigation-item" href="/">
+                     Partnership
+                  </a>
+                  <a class="footer__navigation-item" href="/">
+                     Bussiness Relation
+                  </a>
+               </div>
+               <div class="footer__navigation-group">
+                  <p class="footer__navigation-title">
+                     Community
+                  </p>
+                  <a class="footer__navigation-item" href="/">
+                     Events
+                  </a>
+                  <a class="footer__navigation-item" href="/">
+                     Blog
+                  </a>
+                  <a class="footer__navigation-item" href="/">
+                     Podcast
+                  </a>
+                  <a class="footer__navigation-item" href="/">
+                     Invite a friend
+                  </a>
+               </div>
+               <div class="footer__navigation-group">
+                  <p class="footer__navigation-title">
+                     Socials
+                  </p>
+                  <a class="footer__navigation-item" href="/">
+                     Discord
+                  </a>
+                  <a class="footer__navigation-item" href="/">
+                     Instagram
+                  </a>
+                  <a class="footer__navigation-item" href="/">
+                     Twitter
+                  </a>
+                  <a class="footer__navigation-item" href="/">
+                     Facebook
+                  </a>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="row">
+         <div class="col-12">
+            <div class="footer__bottom">
+               <p class="footer__copyrights">
+                  ©2022 MORENT. All rights reserved
+               </p>
+               <div class="footer__bottom-group">
+                  <a class="footer__bottom-item" href="/">
+                     Privacy & Policy
+                  </a>
+                  <a class="footer__bottom-item" href="/">
+                     Terms & Condition
+                  </a>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+</section>
+
+
+<script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
+</body>
+</html>
