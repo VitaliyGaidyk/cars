@@ -1,0 +1,131 @@
+.header {
+  padding: 40px 32px 40px 48px;
+  border-bottom: 1px solid rgba(195, 212, 233, 0.4);
+  background-color: $mainWhite;
+
+  @media (max-width: $pad) {
+    padding: 20px 15px 20px 24px;
+  }
+
+  @media (max-width: $mobile) {
+    padding: 32px 23px 32px 25px;
+  }
+
+  &__title {
+    color: $mainBlue;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 120%;
+    text-transform: uppercase;
+    margin: 0;
+
+    @media (max-width: $padmini) {
+      margin-bottom: 24px;
+    }
+  }
+
+  &__mobile-menu {
+    display: none;
+
+    @media (max-width: $mobile) {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 100%;
+      margin-bottom: 32px;
+    }
+  }
+
+  &__mobile-icon {
+    max-width: 28px;
+    cursor: pointer;
+  }
+
+  &__search {
+    position: relative;
+    max-width: 492px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+
+    @media (max-width: $laptop) {
+      max-width: 350px;
+    }
+
+    @media (max-width: $mobile) {
+      max-width: inherit;
+    }
+  }
+
+  &__search-item {
+    border-radius: 70px;
+  }
+
+  &__inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    @media (max-width: $padmini) {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  }
+
+  &__search-item {
+    color: $textDarkBlue;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 150%;
+    padding-left: 64px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    border-radius: 70px;
+    border: 1px solid rgba(195, 212, 233, 0.4);
+
+    @media (max-width: $mobile) {
+      border-radius: 10px;
+      padding-top: 12px;
+      padding-bottom: 12px;
+    }
+  }
+
+  &__search-icon {
+    position: absolute;
+    margin-left: 20px;
+
+    &_config {
+      right: 20px;
+
+      @media (max-width: $mobile) {
+        display: none;
+      }
+    }
+  }
+
+  &__mobile-config {
+    display: none;
+    padding: 12px;
+    border: 1px solid rgba(195, 212, 233, 0.4);
+    border-radius: 10px;
+    margin-left: 16px;
+
+    @media (max-width: $mobile) {
+      display: block;
+    }
+  }
+
+  &__icons {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+    @media (max-width: $mobile) {
+      display: none;
+    }
+  }
+
+  &__icons-item {
+    cursor: pointer;
+  }
+}

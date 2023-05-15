@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  background-color: $backgroundMain;
+  color: $mainBlack;
+}
+
+.h1, h2, h3, h4, p {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  transition: all .3s linear;
+  cursor: pointer;
+
+  &:hover {
+    color: inherit;
+  }
+}
