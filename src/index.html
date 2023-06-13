@@ -226,6 +226,7 @@
                   </div>
                </section>
                <section class="content__reviews">
+
                   <div class="content__reviews-header">
                      <p class="content__reviews-inner">
                         Reviews
@@ -307,10 +308,58 @@
                      </div>
                   </div>
                   <div class="content__reviews-footer">
-                     <a class="content__reviews-link">
-                        Show All
-                     </a>
-                     <img src="/public/arrow-down.svg" alt="">
+                     <div class="accordion" id="accordionExample">
+                        <div class="content__reviews-accordion-item accordion-item">
+                           <h2 class="content__reviews-accordion-header accordion-header" id="headingOne">
+                              <a class="content__reviews-link" type="button" data-bs-toggle="collapse"
+                                 data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                 Show All
+                              </a>
+                              <img src="/public/arrow-down.svg" alt="">
+                           </h2>
+                           <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                                data-bs-parent="#accordionExample">
+                              <div class="accordion-body">
+                                 <div class="content__reviews-item">
+                                    <img class="content__reviews-image" src="/public/profile-image-2.png" alt="">
+                                    <div class="content__reviews-wrapper">
+                                       <div class="content__group-inner">
+                                          <div class="content__reviews-group">
+                                             <p class="content__reviews-name">
+                                                Alex Stanton
+                                             </p>
+                                             <p class="content__reviews-position">
+                                                CEO at Amazon
+                                             </p>
+                                          </div>
+                                          <div class="content__reviews-group content__reviews-group_right">
+                              <span class="content__reviews-date">
+                                  20 July 2022
+                              </span>
+                                             <span>
+                                    <img class="content__reviews-star" src="/public/star-icon.svg" alt="">
+                                    <img class="content__reviews-star" src="/public/star-icon.svg" alt="">
+                                    <img class="content__reviews-star" src="/public/star-icon.svg" alt="">
+                                    <img class="content__reviews-star" src="/public/star-icon.svg" alt="">
+                                    <img class="content__reviews-star" src="/public/border-star-icon.svg" alt="">
+                              </span>
+                                          </div>
+                                       </div>
+                                       <p class="content__reviews-text">
+                                          We are very happy with the service from the MORENT App. Morent has a low price
+                                          and
+                                          also
+                                          a large variety of cars with good and comfortable facilities. In addition, the
+                                          service
+                                          provided by the officers is also very friendly and very polite.
+                                       </p>
+                                    </div>
+                                 </div>
+
+                              </div>
+                           </div>
+                        </div>
+                     </div>
                   </div>
                </section>
                <section class="content__slider">
@@ -660,6 +709,9 @@
 </section>
 
 <script type="module" src="./js/main.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
 </body>
 </html>
